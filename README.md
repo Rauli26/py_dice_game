@@ -12,8 +12,9 @@ There are two way to solve this problem
 
 I am going to opt for second approach.
 In this project I will take all the input from users. Please give wide range of number as an input 
-	To get clear idea about chances of reaching the 71th Step 
-	To understand when to use line plot and when histogram.
+
+  To get clear idea about chances of reaching the 71th Step 
+  To understand when to use line plot and when histogram.
 
 Prerequisite: Install numpy and matplotlib for the project 
 
