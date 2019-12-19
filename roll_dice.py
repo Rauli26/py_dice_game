@@ -2,14 +2,16 @@
 import numpy as np
 # Import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
+
 # Set the seeds
 np.random.seed(123)
+
 # Initialization
 all_walks = []
-# Simulate random walk 500 times
-#print("Please enter number of times you want to simulate: ", end="")
-#simulation_number = int(input())
+
+# Simulate random walk 
 simulation_number = int(input("Please enter number of times you want to simulate:"))
+
 for i in range(simulation_number) :
     random_walk = [0]
     for x in range(100) :
@@ -41,17 +43,18 @@ while visualize == True:
     #user_input = int(input())
 
     user_input =  int(input("Please type number 1 or 2:"))
-    #print(user_input)
+    
     # Plot random_walk
     if user_input == 1:
         plt.plot(np_aw_t)
-    #plt.show()
+    
     # Plot histogram of ends, display plot
     elif user_input == 2:
         plt.hist(ends)
 
 # Show the plot
     plt.show()
+    
     answer = input("Whould you like to visualize again:").lower()
 
     while answer == 'yes':
